@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>DZ_3_LayoutProject</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>DZ_3_LayoutProject</title>
+  </head>
 
-<body>
-  <!-- 1)создаем блог header -->
-  <!-- шапка сайта -->
-  <header class="header">
-    <!-- 1.1) делаем вложение nav блог с навигацией(меню)-->
-    <nav class="navigation container">
-      <a href="index.html"><img src="img\Logo0.png" alt="MainLogo"></a>
-      <div>
-        <a href="#">Home</a>
+  <body>
+    <!-- 1)блог header, шапка сайта -->
+    <header class="header">
+      <nav class="navigation container">
+        <!-- 1.2) блог с логотипом -->
+        <div>
+          <a href="index.html"><img src="./img\Logo0.png" alt="HeaderLogo"/></a>
+        </div>
+        <!-- 1.1) блог nav с навигацией(меню)-->
+        <a href="#" class="HeadColButFont">Home</a>
         <a href="#">About Us</a>
         <a href="#">Services</a>
         <a href="#">Features</a>
         <a href="#">Team</a>
         <a href="#">Blog</a>
         <a href="#">Contact</a>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
+    <!-- 2)блог main, содержание сайта -->
+    <main class="main">
+      <section class="mainContent container">
+        <div class="mainContent__leftSide">
+          <h1>SEO & Digital Marketing For Your Website.</h1>
+          <p>
+            Provide all kind of seo services and help to improve seo ranking.
+            Globally incubate standards.
+          </p>
+          <div class="mainContent__leftSide-btnList">
+            <button class="MainColButBackg1">Start Now</button>
+            <button class="MainColButBackg2">Watch Video</button>
+          </div>
+        </div>
+        <img src="img\MarketingSystem.png" alt="MarketingSystem" />
+      </section>
+    </main>
 
-
-
-
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- 3)блог footer, низ сайта -->
+    <footer class="footer">
+      <nav class="logos container">
+        <a href="#"><img src="img\Logo1.png" alt="logo" /></a>
+        <a href="#"><img src="img\Logo2.png" alt="logo" /></a>
+        <a href="#"><img src="img\Logo3.png" alt="logo" /></a>
+        <a href="#"><img src="img\Logo4.png" alt="logo" /></a>
+        <a href="#"><img src="img\Logo5.png" alt="logo" /></a>
+      </nav>
+    </footer>
+  </body>
 </html>
