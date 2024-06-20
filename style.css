@@ -25,7 +25,7 @@ button {
 
 /* ширина всего содержимого сайта */
 .container {
-  max-width: 1174px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -35,7 +35,20 @@ button {
 }
 
 .navigation {
+  display: flex;
+  justify-content: space-between; 
+  /* gap: 460px; */
+  align-items: center;
+}
+
+.a {
+  justify-content: space-between;
+}
+
+.fontSizeHeaderDiv {
   font-weight: 400;
+  width: 533px;
+  padding: 20px 0px;
 }
 
 .navigation a {
@@ -47,9 +60,13 @@ button {
 }
 
 .mainContent {
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .mainContent__leftSide {
+  max-width: 522px;
 }
 
 .mainContent__leftSide h1 {
@@ -57,6 +74,7 @@ button {
   font-size: 60px;
   line-height: 120%;
   margin-bottom: 20px;
+  max-width: 522px;
 }
 
 .mainContent__leftSide p {
@@ -65,9 +83,12 @@ button {
   font-size: 20px;
   line-height: 140%;
   margin-bottom: 32px;
+  max-width: 466px;
 }
 
 .mainContent__leftSide-btnList {
+  max-width: 320px;
+  align-items: center;
 }
 
 .mainContent__leftSide-btnList button {
@@ -85,6 +106,9 @@ button {
 }
 
 .logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1,
@@ -104,8 +128,12 @@ p {
 .MainColButBackg1 {
   color: #ffffff;
   background: #f25822;
+  max-width: 140px;
 }
 .MainColButBackg2 {
   color: #aaaaaa;
   background: #ffffff;
+  max-width: 160px;
 }
+
+
